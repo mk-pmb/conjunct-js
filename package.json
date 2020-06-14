@@ -1,0 +1,43 @@
+{ "name": "conjunct",
+  "version": "1.0.0",
+  "description": "Glue array items together, with a different glue for the last pair.",
+  "keywords": [
+    "and",
+    "array",
+    "comma",
+    "compound",
+    "conjunction",
+    "English",
+    "grammar",
+    "Harvard comma",
+    "list",
+    "or",
+    "Oxford comma",
+    "semicolon",
+    "serial comma",
+    "series comma"
+  ],
+
+  "author": "M.K. (https://github.com/mk-pmb)",
+  "homepage": "https://github.com/mk-pmb/conjunct-js/#readme",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/mk-pmb/conjunct-js.git"
+  },
+  "bugs": {
+    "url": "https://github.com/mk-pmb/conjunct-js/issues"
+  },
+  "contributors": [],
+
+  "private": false, "license": "ISC",
+
+  "main": "index.js",
+  "scripts": { "test": "nodejs test.usage.js" },
+
+  "dependencies": {},
+  "devDependencies": {
+  },
+
+
+  "npm vs. BOM = Unexpected token": "-*- coding: UTF-8 -*-"
+}
