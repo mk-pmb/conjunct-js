@@ -14,4 +14,10 @@ function conj(list, fin, glue, serial) {
   return (list.slice(0, -1).join(glue) + serial + fin + list.slice(-1)[0]);
 }
 
+conj.a = function (l) { return conj(l, ' and '); };
+conj.o = function (l) { return conj(l, ' or '); };
+conj.s = function (f, l) { return conj(l, ' ' + f + ' ', ', ', ','); };
+conj.sa = function (l) { return conj(l, ' and ', ', ', ','); };
+conj.so = function (l) { return conj(l, ' or ', ', ', ','); };
+
 module.exports = conj;

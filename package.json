@@ -1,5 +1,5 @@
 { "name": "conjunct",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "Glue array items together, with a different glue for the last pair.",
   "keywords": [
     "and",

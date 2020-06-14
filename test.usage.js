@@ -27,6 +27,13 @@ eq(conj(pair, ' or ', ', ', ','), 'gold or silver');
 eq(conj(list, ' or ', ', '),      'red, green, blue or white');
 eq(conj(list, ' or ', ', ', ','), 'red, green, blue, or white');
 
+// Convenience functions:
+eq(conj.o(list),  'red, green, blue or white');
+eq(conj.a(list),  'red, green, blue and white');
+eq(conj.so(list), 'red, green, blue, or white');
+eq(conj.sa(list), 'red, green, blue, and white');
+eq(conj.s('or maybe', list), 'red, green, blue, or maybe white');
+
 
 
 
